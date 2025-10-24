@@ -1,0 +1,47 @@
+### Laravel Backend ###
+/ticketing-system-backend/node_modules
+/ticketing-system-backend/public/hot
+/ticketing-system-backend/public/storage
+/ticketing-system-backend/storage/*.key
+/ticketing-system-backend/vendor
+/ticketing-system-backend/.env
+/ticketing-system-backend/.env.backup
+/ticketing-system-backend/.env.production
+/ticketing-system-backend/.phpunit.result.cache
+/ticketing-system-backend/Homestead.json
+/ticketing-system-backend/Homestead.yaml
+/ticketing-system-backend/auth.json
+/ticketing-system-backend/npm-debug.log
+/ticketing-system-backend/yarn-error.log
+/ticketing-system-backend/.fleet
+/ticketing-system-backend/.idea
+/ticketing-system-backend/.vscode
+
+### React Frontend ###
+/ticketing-system-frontend/node_modules
+/ticketing-system-frontend/dist
+/ticketing-system-frontend/dist-ssr
+/ticketing-system-frontend/.env
+/ticketing-system-frontend/.env.local
+/ticketing-system-frontend/.env.production
+/ticketing-system-frontend/*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
