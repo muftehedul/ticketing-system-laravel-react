@@ -379,7 +379,10 @@ const TicketDetail = () => {
                       Attachment
                     </h3>
                     <a
-                      href={`http://localhost:8000/storage/${ticket.attachment_path}`}
+                      href={`${
+                        import.meta.env.VITE_API_URL?.replace("/api", "") ||
+                        "http://localhost:8000"
+                      }/storage/${ticket.attachment_path}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg text-sm text-gray-700 transition-colors"
